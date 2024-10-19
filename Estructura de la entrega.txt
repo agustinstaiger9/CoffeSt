@@ -1,0 +1,19 @@
+5 html 
+1 index fuera y 4 en la carpeta html
+carpeta assets
+carpeta css con el archivo styles.css
+
+Link publico en el drive y copiarlo para la entrega
+en la carpeta del drive tambien crear un archivo txt con el link del whismal con las 
+10 vistas de los archivos html (2 de cada una, index, y las demas)
+
+
+
+Link bosquejo:
+
+https://whimsical.com/preentrega-1-staiger-LkMM69iG7XFt9knqRdeaYy
+
+
+Link del drive
+
+https://drive.google.com/drive/folders/1BzkqlWwX2zFclQ_A564IuvkoA3Ea5ts9?usp=sharing
