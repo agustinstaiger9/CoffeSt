@@ -1,0 +1,79 @@
+.titulo-principal-nosotros {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.section-nosotros {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.nosotros-div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.nosotros-div img {
+    max-width: 100%;
+    width: 50%;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#div1, #div2, #div3 {
+    flex-direction: row;
+    width: 50%;
+}
+
+.nosotros-div-imagen1,
+.nosotros-div-imagen2,
+.nosotros-div-imagen3 {
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.nosotros-div-imagen2 {
+    margin-left: 80px;
+}
+
+.titulos-nosotros-imagenes {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.texto-div-1,
+.texto-div-2,
+.texto-div-3 {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    padding: 50px;
+}
+
+.mapa-titulo-nosotros {
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+iframe {
+    width: 800px;
+    height: 450px;
+}

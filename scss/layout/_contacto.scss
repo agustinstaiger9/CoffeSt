@@ -1,0 +1,26 @@
+.titulo-principal-contacto {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5em;
+    color: #333;
+    text-decoration: underline;
+}
+
+.section-contacto {
+    padding: 40px 0;
+}
+
+.container-contacto {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    .btn {
+        margin: 0 10px;
+    }
+}

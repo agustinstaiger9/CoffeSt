@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar, .footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.navbar a, .footer p {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container {
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+// @media (max-width: 768px) {
+//     .container {
+//         padding: 15px;
+//     }
+// }
