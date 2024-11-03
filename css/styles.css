@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -266,117 +265,24 @@ iframe {
   margin: 0 10px;
 }
 
-@media (min-width: 1024px) and (max-width: 1920px) {
-  #container-index {
-    width: 100%;
-    max-width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .col-md-6 {
-    width: 100%;
-    padding: 0;
-  }
-  .row > .col-12 {
-    width: 100%;
-    padding: 0;
-  }
-  .imagen-grande,
-  .imagen-media,
-  .imagen-chica {
-    width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-    margin-left: 250px;
-  }
-  .row {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 0;
-  }
-  .tituloIndex {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-}
-@media (min-width: 1024px) and (max-width: 1920px) {
-  .titulo-principal-nosotros {
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  .section-nosotros {
-    padding: 20px;
-  }
-  .titulos-nosotros-imagenes {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    margin-left: 220px;
-    width: 100%;
-  }
-  .texto-nosotros-div {
-    font-size: 1.1rem;
-    line-height: 1.5;
-    margin-left: 240px;
-    width: 100%;
-  }
-  .img-fluid {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-    margin-left: 230px;
-  }
-  .mapa-titulo-nosotros {
-    font-size: 1.8rem;
-    margin-top: 40px;
-    margin-bottom: 20px;
-  }
-  iframe {
-    width: 100%;
-    height: 450px;
-    border: 0;
-  }
-  .row.mb-4:last-child {
-    display: flex;
-    flex-direction: column;
-  }
-  .row.mb-4:last-child .col-md-6:first-child {
-    order: 2;
-  }
-  .row.mb-4:last-child .col-md-6:last-child {
-    order: 1;
-  }
-}
-@media (min-width: 1024px) and (max-width: 1920px) {
-  .servicio-card {
-    width: calc(50% - 20px); /* Ajustar el tamaño según sea necesario */
-    margin: 10px;
-    display: inline-block;
-  }
-  .servicios-container {
-    text-align: center;
-  }
-  footer {
-    margin-top: 130px;
-  }
-}
 @media (min-width: 320px) and (max-width: 460px) {
   .tituloIndex {
-    font-size: 1.8em; /* Aumenta el tamaño del título en móviles */
+    font-size: 1.5em;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   .imagen-grande {
-    height: auto; /* Asegura que la imagen se ajuste */
+    height: auto;
+    margin-bottom: 10px;
   }
   .imagen-media, .imagen-chica {
-    height: auto; /* Asegura que las imágenes pequeñas se ajusten */
+    height: auto;
   }
   .container {
-    padding: 20px; /* Reduce el padding para móviles */
+    padding: 20px;
   }
   .navbar {
-    flex-direction: column; /* Cambia la dirección de la barra de navegación */
-    align-items: center; /* Centra los elementos */
+    flex-direction: column;
+    align-items: center;
   }
   .navbar-nav {
     padding: 10px 0;
@@ -404,28 +310,42 @@ iframe {
   }
 }
 @media (min-width: 320px) and (max-width: 460px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+  .nav-link {
+    font-size: 0.9rem;
+    padding: 5px;
+  }
+  .titulo-principal-servicios {
+    font-size: 1.5rem;
+    text-align: center;
+  }
   .servicios-container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .servicio-card {
-    margin: 10px 0;
-    width: 90%;
-  }
-  .servicio-media {
-    max-width: 100%;
-    height: auto;
-  }
-  .titulo-principal-servicios {
-    font-size: 1.8em;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
     text-align: center;
   }
+  .servicio-media {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
   .servicio-titulo {
-    font-size: 1.5em;
+    font-size: 1.2rem;
+    margin: 10px 0;
   }
   .servicio-descripcion {
-    font-size: 1em;
+    font-size: 1rem;
+  }
+  footer p {
+    font-size: 0.9rem;
   }
 }
 @media (min-width: 320px) and (max-width: 460px) {
@@ -455,22 +375,22 @@ iframe {
 }
 @media (min-width: 320px) and (max-width: 460px) {
   .titulo-principal-contacto {
-    font-size: 1.5rem; /* Tamaño de fuente más pequeño */
-    text-align: center; /* Centrar el texto */
+    font-size: 1.5rem;
+    text-align: center;
   }
   .container-contacto {
-    padding: 10px; /* Padding reducido */
+    padding: 10px;
   }
   .form-control {
-    font-size: 0.9rem; /* Tamaño de fuente de los campos más pequeño */
+    font-size: 0.9rem;
   }
   .button-container {
     display: flex;
-    flex-direction: column; /* Cambiar a columna para botones */
-    align-items: center; /* Centrar botones */
+    flex-direction: column;
+    align-items: center;
   }
   .btn {
-    width: 100%; /* Botones ocupan todo el ancho */
+    width: 100%;
   }
   #secondary-button {
     margin-top: 10px;
