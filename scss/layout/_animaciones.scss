@@ -1,0 +1,24 @@
+// Animaciones para títulos
+.tituloIndex {
+    text-align: center;
+    font-size: $font-size-large;
+    margin: 20px 0;
+    opacity: 0;
+    animation: bounceIn 1s forwards;
+}
+
+/* Animación de rebote */
+@keyframes bounceIn {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(10px); 
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
