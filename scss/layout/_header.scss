@@ -2,3 +2,7 @@
     color: black;
     text-decoration: underline;
 }
+
+.text-center {
+    @include flex-center;
+}
