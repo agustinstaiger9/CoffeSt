@@ -28,20 +28,17 @@
     }
 }
 
+
 // Nosotros media queries
 
 @media (min-width: 320px) and (max-width: 460px) {
     .titulo-principal-nosotros {
         font-size: 1.5em;
-
     }
-
-
     .nosotros-div img {
         width: 50%;
         height: 50%;
     }
-
     .texto-nosotros-div {
         width: 100%;
         padding: 10px;
@@ -77,7 +74,6 @@
     font-size: medium;
 }
 
-
 }
 
 // Servicios Media queries
@@ -86,45 +82,37 @@
     .navbar-brand {
         font-size: 1.2rem;
     }
-    
     .nav-link {
         font-size: 0.9rem;
         padding: 5px;
     }
-
     .titulo-principal-servicios {
         font-size: 1.5rem;
         text-align: center;
     }
-
     .servicios-container {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
     .servicio-card {
         width: 100%;
         max-width: 400px;
         margin: 10px auto;
         text-align: center;
     }
-
     .servicio-media {
         width: 100%;
         height: auto;
         border-radius: 8px;
     }
-
     .servicio-titulo {
         font-size: 1.2rem;
         margin: 10px 0;
     }
-
     .servicio-descripcion {
         font-size: 1rem;
     }
-
     footer p {
         font-size: 0.9rem;
     }
@@ -158,7 +146,6 @@
     .producto-titulo {
         font-size: 1.5em;
     }
-
     .producto-descripcion {
         font-size: 1em;
     }
