@@ -130,7 +130,7 @@ body {
   color: black;
   text-decoration: underline;
   font-family: "Courier New", Courier, monospace;
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 .text-center {
@@ -189,6 +189,7 @@ body {
   margin-bottom: 20px;
   font-size: x-large;
   font-family: "Courier New", Courier, monospace;
+  text-decoration: underline;
 }
 
 .digital-menu-link {
