@@ -22,3 +22,36 @@
         opacity: 1;
     }
 }
+
+
+// Animacion imagenes index
+
+/* Efecto hover para la imagen grande */
+.imagen-grande {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagen-grande:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Efecto hover para la imagen media */
+.imagen-media {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagen-media:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Efecto hover para la imagen chica */
+.imagen-chica {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagen-chica:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}

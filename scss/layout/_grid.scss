@@ -9,8 +9,10 @@
 .history-title {
     font-size: 2rem;
     font-weight: bold;
+    font-size:x-large;
     color: #333;
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 10px;
     text-decoration: underline;
     font-family: 'Courier New', Courier, monospace;
@@ -27,10 +29,10 @@
 /* Menú Digital con Flexbox */
 .digital-menu {
     display: flex;
-    flex-direction: column; /* Para que los elementos se apilen de arriba a abajo */
-    align-items: center;    /* Centra los elementos horizontalmente */
-    justify-content: center; /* Asegura que se centren bien verticalmente */
-    text-align: center;     /* Centra los textos */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     margin-top: 30px;
 }
 
@@ -39,21 +41,10 @@
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
+    font-size:x-large;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.digital-menu-btn {
-    font-size: 1.1rem;
-    padding: 12px 25px;
-    background-color: #6c757dd1;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-bottom: 20px; /* Espacio debajo del botón */
-}
-
-.digital-menu-btn:hover {
-    background-color: #6c757dd1;
-}
 
 .digital-menu-link {
     font-size: 1.2rem;
@@ -70,20 +61,4 @@
     width: 100%;
     height: 500px;
     margin-bottom: 20px;
-}
-
-/* Adaptación de la cuadrícula en pantallas pequeñas */
-@media (max-width: 460px) {
-    .coffee-history {
-        margin: 20px;
-        font: 10px;
-    }
-
-    .digital-menu {
-        padding: 0 15px;
-    }
-
-    .digital-menu-btn {
-        width: 100%; /* Para que el botón ocupe todo el ancho en pantallas pequeñas */
-    }
 }

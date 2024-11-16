@@ -35,6 +35,20 @@ body {
   background-color: rgba(108, 117, 125, 0.8196078431);
 }
 
+.digital-menu-btn {
+  font-size: 1.1rem;
+  padding: 12px 25px;
+  background-color: rgba(108, 117, 125, 0.8196078431);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.digital-menu-btn:hover {
+  background-color: rgba(108, 117, 125, 0.8196078431);
+}
+
 .card {
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -43,17 +57,20 @@ body {
 .imagen-grande {
   max-width: 100%;
   height: 700px;
+  border-radius: 5px;
 }
 
 .imagen-media {
   max-width: 100%;
   height: 350px;
   margin-bottom: 10px;
+  border-radius: 5px;
 }
 
 .imagen-chica {
   max-width: 100%;
   height: 340px;
+  border-radius: 5px;
 }
 
 .tituloIndex {
@@ -79,9 +96,41 @@ body {
     opacity: 1;
   }
 }
+/* Efecto hover para la imagen grande */
+.imagen-grande {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagen-grande:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Efecto hover para la imagen media */
+.imagen-media {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagen-media:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Efecto hover para la imagen chica */
+.imagen-chica {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagen-chica:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
 .tituloIndex {
   color: black;
   text-decoration: underline;
+  font-family: "Courier New", Courier, monospace;
+  font-size: x-large;
 }
 
 .text-center {
@@ -106,8 +155,10 @@ body {
 .history-title {
   font-size: 2rem;
   font-weight: bold;
+  font-size: x-large;
   color: #333;
   text-align: center;
+  margin-top: 20px;
   margin-bottom: 10px;
   text-decoration: underline;
   font-family: "Courier New", Courier, monospace;
@@ -124,10 +175,10 @@ body {
 /* Menú Digital con Flexbox */
 .digital-menu {
   display: flex;
-  flex-direction: column; /* Para que los elementos se apilen de arriba a abajo */
-  align-items: center; /* Centra los elementos horizontalmente */
-  justify-content: center; /* Asegura que se centren bien verticalmente */
-  text-align: center; /* Centra los textos */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   margin-top: 30px;
 }
 
@@ -136,20 +187,8 @@ body {
   font-weight: bold;
   color: #333;
   margin-bottom: 20px;
-}
-
-.digital-menu-btn {
-  font-size: 1.1rem;
-  padding: 12px 25px;
-  background-color: rgba(108, 117, 125, 0.8196078431);
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-bottom: 20px; /* Espacio debajo del botón */
-}
-
-.digital-menu-btn:hover {
-  background-color: rgba(108, 117, 125, 0.8196078431);
+  font-size: x-large;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .digital-menu-link {
@@ -169,19 +208,6 @@ body {
   margin-bottom: 20px;
 }
 
-/* Adaptación de la cuadrícula en pantallas pequeñas */
-@media (max-width: 460px) {
-  .coffee-history {
-    margin: 20px;
-    font: 10px;
-  }
-  .digital-menu {
-    padding: 0 15px;
-  }
-  .digital-menu-btn {
-    width: 100%; /* Para que el botón ocupe todo el ancho en pantallas pequeñas */
-  }
-}
 .titulo-principal-servicios {
   text-align: center;
   margin-top: 40px;
@@ -315,8 +341,8 @@ iframe {
 
 .mapa-iframe {
   border: 0;
-  width: 100%; /* Opcional, puedes ajustar según tu diseño */
-  height: 450px; /* Ajusta la altura según tu preferencia */
+  width: 100%;
+  height: 450px;
 }
 
 .titulo-principal-productos {
@@ -590,6 +616,21 @@ iframe {
   }
   .navbar-nav {
     padding: 10px 0;
+  }
+  .history-text {
+    margin-top: 10px;
+    font-size: medium;
+  }
+  .digital-menu {
+    padding: 0 15px;
+  }
+  .digital-menu-btn {
+    width: 100%;
+  }
+  .menu-digital-foto {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
   }
 }
 @media (min-width: 320px) and (max-width: 460px) {
